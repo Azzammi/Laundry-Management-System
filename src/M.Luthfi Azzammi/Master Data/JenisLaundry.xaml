@@ -1,0 +1,29 @@
+﻿<Window x:Class="JenisLaundry"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="JenisLaundry" Height="300.223" Width="571.642" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Icon="/M.Luthfi Azzammi;component/Resources/jenislaundry.png">
+    <Grid Name="Grid1">
+        <Rectangle Fill="#FF543EE2" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="60"/>
+        <Label Name="Judul" Content="Jenis Laundry" HorizontalAlignment="Left" Height="43" Margin="10,10,0,0" VerticalAlignment="Top" Width="314" FontFamily="Verdana" FontSize="27" Foreground="White"/>
+        <Label Content="ID Jenis" HorizontalAlignment="Left" Margin="33,73,0,0" VerticalAlignment="Top" FontFamily="Georgia" FontSize="18"/>
+        <Label Content="Jenis Laundry" Margin="33,139,390,0" VerticalAlignment="Top" FontFamily="Georgia" FontSize="18"/>
+        <TextBox Name="KodeJenisTxt" HorizontalAlignment="Left" Height="43" Margin="176,70,0,0" TextWrapping="Wrap" Text="User" VerticalAlignment="Top" Width="363" Padding="7" FontFamily="verdana" FontSize="15"/>
+        <TextBox Name="NmJenisTxt" HorizontalAlignment="Left" Height="43" Margin="176,126,0,0" VerticalAlignment="Top" Width="363" Padding="7" FontFamily="Verdana" FontSize="15"/>
+        <GroupBox Margin="-12,202,-31,0" BorderThickness="0">
+            <Grid Background="#FF40D19C" Margin="2,0,-2,-6">
+                <Button Name="SimpanBtn" Margin="240,10,199,10" >
+                    <Grid Width="148" HorizontalAlignment="Center" VerticalAlignment="Center" Height="48">
+                        <Image Margin="10,10,0,10" Source="../Resources/save.png" VerticalAlignment="Center" HorizontalAlignment="Left" Height="28"/>
+                        <Label Content="Simpan" Margin="47,10,27,12" FontFamily="Georgia" FontSize="16"/>
+                    </Grid>
+                </Button>
+                <Button Name="BatalBTn" Margin="403,10,36,10" >
+                    <Grid Width="148" Height="48" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Image Margin="0,10,106,10" Source="../Resources/delete2.png"/>
+                        <Label Content="Batal" Margin="47,10,27,12" FontFamily="Georgia" FontSize="16"/>
+                    </Grid>
+                </Button>
+            </Grid>
+        </GroupBox>
+    </Grid>
+</Window>

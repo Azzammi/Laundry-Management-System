@@ -1,0 +1,626 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+M.LuthfiAzzammi
+</name>
+</assembly>
+<members>
+<member name="M:M.Luthfi_Azzammi.Barang.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.Barang">
+	<summary>
+Barang
+</summary>
+</member><member name="M:M.Luthfi_Azzammi.ViewTarif.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.ViewTarif">
+	<summary>
+ViewTarif
+</summary>
+</member><member name="M:M.Luthfi_Azzammi.Application.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:M.Luthfi_Azzammi.Application.Main">
+	<summary>
+Application Entry Point.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.Application">
+	<summary>
+Application
+</summary>
+</member><member name="M:M.Luthfi_Azzammi.MainWindow.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.MainWindow">
+	<summary>
+MainWindow
+</summary>
+</member><member name="M:M.Luthfi_Azzammi.ViewBarang.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.ViewBarang">
+	<summary>
+ViewBarang
+</summary>
+</member><member name="M:M.Luthfi_Azzammi.Pembelian.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.Pembelian">
+	<summary>
+Pembelian
+</summary>
+</member><member name="M:M.Luthfi_Azzammi.RincianPembelian.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.RincianPembelian">
+	<summary>
+RincianPembelian
+</summary>
+</member><member name="M:M.Luthfi_Azzammi.PemakaianBarang2.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.PemakaianBarang2">
+	<summary>
+PemakaianBarang2
+</summary>
+</member><member name="M:M.Luthfi_Azzammi.Login.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.Login">
+	<summary>
+Login
+</summary>
+</member><member name="M:M.Luthfi_Azzammi.Pengguna.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.Pengguna">
+	<summary>
+Pengguna
+</summary>
+</member><member name="M:M.Luthfi_Azzammi.ViewJenisLaundry.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.ViewJenisLaundry">
+	<summary>
+ViewJenisLaundry
+</summary>
+</member><member name="M:M.Luthfi_Azzammi.Tarif.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.Tarif">
+	<summary>
+Tarif
+</summary>
+</member><member name="M:M.Luthfi_Azzammi.ViewSupplier.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.ViewSupplier">
+	<summary>
+ViewSupplier
+</summary>
+</member><member name="M:M.Luthfi_Azzammi.ViewKonsumen.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.ViewKonsumen">
+	<summary>
+ViewKonsumen
+</summary>
+</member><member name="M:M.Luthfi_Azzammi.ViewKaryawan.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.ViewKaryawan">
+	<summary>
+ViewKaryawan
+</summary>
+</member><member name="M:M.Luthfi_Azzammi.Kembalian.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.Kembalian">
+	<summary>
+Kembalian
+</summary>
+</member><member name="M:M.Luthfi_Azzammi.PemakaianBarang.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.PemakaianBarang">
+	<summary>
+PemakaianBarang
+</summary>
+</member><member name="M:M.Luthfi_Azzammi.ViewPengguna.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.ViewPengguna">
+	<summary>
+ViewPengguna
+</summary>
+</member><member name="M:M.Luthfi_Azzammi.Nota.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.Nota">
+	<summary>
+Nota
+</summary>
+</member><member name="M:M.Luthfi_Azzammi.ViewPemakaianBarang2.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.ViewPemakaianBarang2">
+	<summary>
+ViewPemakaianBarang2
+</summary>
+</member><member name="M:M.Luthfi_Azzammi.StartPage.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.StartPage">
+	<summary>
+StartPage
+</summary>
+</member><member name="M:M.Luthfi_Azzammi.Supplier.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.Supplier">
+	<summary>
+Supplier
+</summary>
+</member><member name="M:M.Luthfi_Azzammi.konsumen.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.Konsumen">
+	<summary>
+Konsumen
+</summary>
+</member><member name="M:M.Luthfi_Azzammi.Transaksi.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.Transaksi">
+	<summary>
+Transaksi
+</summary>
+</member><member name="M:M.Luthfi_Azzammi.RincianTransaksi.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.RincianTransaksi">
+	<summary>
+RincianTransaksi
+</summary>
+</member><member name="M:M.Luthfi_Azzammi.JenisLaundry.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.JenisLaundry">
+	<summary>
+JenisLaundry
+</summary>
+</member><member name="M:M.Luthfi_Azzammi.Karyawan.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.Karyawan">
+	<summary>
+Karyawan
+</summary>
+</member><member name="P:M.Luthfi_Azzammi.My.MyWpfExtension.Application">
+	<summary>
+ Returns the application object for the running application
+ </summary>
+</member><member name="P:M.Luthfi_Azzammi.My.MyWpfExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:M.Luthfi_Azzammi.My.MyWpfExtension.User">
+	<summary>
+ Returns information for the current user.  If you wish to run the application with the current 
+ Windows user credentials, call My.User.InitializeWithWindowsUser().
+ </summary>
+</member><member name="P:M.Luthfi_Azzammi.My.MyWpfExtension.Log">
+	<summary>
+ Returns the application log. The listeners can be configured by the application's configuration file.
+ </summary>
+</member><member name="P:M.Luthfi_Azzammi.My.MyWpfExtension.Windows">
+	<summary>
+ Returns the collection of Windows defined in the project.
+ </summary>
+</member><member name="T:M.Luthfi_Azzammi.My.MyWpfExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for WPF
+ </summary>
+	<remarks></remarks>
+</member><member name="P:M.Luthfi_Azzammi.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:M.Luthfi_Azzammi.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:M.Luthfi_Azzammi.My.Resources.Resources.b_offer_a_256">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:M.Luthfi_Azzammi.My.Resources.Resources.barang">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:M.Luthfi_Azzammi.My.Resources.Resources.check">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:M.Luthfi_Azzammi.My.Resources.Resources.close">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:M.Luthfi_Azzammi.My.Resources.Resources.customer">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:M.Luthfi_Azzammi.My.Resources.Resources.d_dispatch_order_256">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:M.Luthfi_Azzammi.My.Resources.Resources.daftarbarang">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:M.Luthfi_Azzammi.My.Resources.Resources.delete">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:M.Luthfi_Azzammi.My.Resources.Resources.delete1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:M.Luthfi_Azzammi.My.Resources.Resources.delete2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:M.Luthfi_Azzammi.My.Resources.Resources.edit">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:M.Luthfi_Azzammi.My.Resources.Resources.GoliveCS2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:M.Luthfi_Azzammi.My.Resources.Resources.Help">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:M.Luthfi_Azzammi.My.Resources.Resources.Home">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:M.Luthfi_Azzammi.My.Resources.Resources.jenislaundry">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:M.Luthfi_Azzammi.My.Resources.Resources.karyawan">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:M.Luthfi_Azzammi.My.Resources.Resources.pemakaianbarang">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:M.Luthfi_Azzammi.My.Resources.Resources.pembelian">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:M.Luthfi_Azzammi.My.Resources.Resources.pembelianrinci">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:M.Luthfi_Azzammi.My.Resources.Resources.profil">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:M.Luthfi_Azzammi.My.Resources.Resources.recycle_bin">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:M.Luthfi_Azzammi.My.Resources.Resources.rincian">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:M.Luthfi_Azzammi.My.Resources.Resources.save">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:M.Luthfi_Azzammi.My.Resources.Resources.setting">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:M.Luthfi_Azzammi.My.Resources.Resources.spyglass">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:M.Luthfi_Azzammi.My.Resources.Resources.Supplier">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:M.Luthfi_Azzammi.My.Resources.Resources.tambah">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:M.Luthfi_Azzammi.My.Resources.Resources.tarif">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:M.Luthfi_Azzammi.My.Resources.Resources.transaksi">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:M.Luthfi_Azzammi.My.Resources.Resources.transaksirinci">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:M.Luthfi_Azzammi.My.Resources.Resources.user_male_white_blue_black">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:M.Luthfi_Azzammi.My.Resources.Resources.Vector_Background_and_Design_24_Cool_Wallpapers_HD">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.BarangDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.JenisLaundryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.KaryawanDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.KonsumenDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.LoginDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.PemakaianBarangDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.PembelianDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.RincianPembelianDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.RincianTransaksiDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.SupplierDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.TarifDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.TransaksiDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.BarangRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.JenisLaundryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.KaryawanRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.KonsumenRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.LoginRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.PemakaianBarangRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.PembelianRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.RincianPembelianRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.RincianTransaksiRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.SupplierRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.TarifRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.TransaksiRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.BarangRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.JenisLaundryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.KaryawanRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.KonsumenRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.LoginRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.PemakaianBarangRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.PembelianRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.RincianPembelianRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.RincianTransaksiRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.SupplierRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.TarifRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet.TransaksiRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSetTableAdapters.BarangTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSetTableAdapters.JenisLaundryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSetTableAdapters.KaryawanTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSetTableAdapters.KonsumenTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSetTableAdapters.LoginTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSetTableAdapters.PemakaianBarangTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSetTableAdapters.PembelianTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSetTableAdapters.RincianPembelianTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSetTableAdapters.RincianTransaksiTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSetTableAdapters.SupplierTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSetTableAdapters.TarifTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSetTableAdapters.TransaksiTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:M.Luthfi_Azzammi.LuthfiAzzammiDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(M.Luthfi_Azzammi.LuthfiAzzammiDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:M.Luthfi_Azzammi.LuthfiAzzammiDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(M.Luthfi_Azzammi.LuthfiAzzammiDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:M.Luthfi_Azzammi.LuthfiAzzammiDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(M.Luthfi_Azzammi.LuthfiAzzammiDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:M.Luthfi_Azzammi.LuthfiAzzammiDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:M.Luthfi_Azzammi.LuthfiAzzammiDataSetTableAdapters.TableAdapterManager.UpdateAll(M.Luthfi_Azzammi.LuthfiAzzammiDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:M.Luthfi_Azzammi.LuthfiAzzammiDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

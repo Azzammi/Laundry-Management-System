@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1A042708-7BED-407D-927D-1FCE005D6CB4}</ProjectGuid>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>M.Luthfi_Azzammi</RootNamespace>
+    <AssemblyName>M.Luthfi Azzammi</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <IncrementalBuild>true</IncrementalBuild>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>M.Luthfi Azzammi.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <IncrementalBuild>false</IncrementalBuild>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>M.Luthfi Azzammi.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Windows\assembly\GAC_MSIL\System.Data.SqlServerCe\4.0.0.0__89845dcd8080cc91\System.Data.SqlServerCe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Controls.Ribbon" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="Application.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="AboutBox1.Designer.vb">
+      <DependentUpon>AboutBox1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox2.Designer.vb">
+      <DependentUpon>AboutBox2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\LaporanBarang.Designer.vb">
+      <DependentUpon>LaporanBarang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\LaporanBarang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\LaporanKaryawan.Designer.vb">
+      <DependentUpon>LaporanKaryawan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\LaporanKaryawan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\laporanKonsumen.Designer.vb">
+      <DependentUpon>laporanKonsumen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\laporanKonsumen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\laporanpe.Designer.vb">
+      <DependentUpon>laporanpe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\laporanpe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\LaporanSupplier.Designer.vb">
+      <DependentUpon>LaporanSupplier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\LaporanSupplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\LaporanTransaksi.Designer.vb">
+      <DependentUpon>LaporanTransaksi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\LaporanTransaksi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LuthfiAzzammiDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LuthfiAzzammiDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LuthfiAzzammiDataSet.vb">
+      <DependentUpon>LuthfiAzzammiDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Master Data\ViewPemakaianBarang2.xaml.vb">
+      <DependentUpon>ViewPemakaianBarang2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Master Data\PemakaianBarang2.xaml.vb">
+      <DependentUpon>PemakaianBarang2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StartPage.xaml.vb">
+      <DependentUpon>StartPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Transaksi\Kembalian.xaml.vb">
+      <DependentUpon>Kembalian.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Transaksi\Nota.xaml.vb">
+      <DependentUpon>Nota.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Transaksi\PemakaianBarang.xaml.vb">
+      <DependentUpon>PemakaianBarang.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Transaksi\Pembelian.xaml.vb">
+      <DependentUpon>Pembelian.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Transaksi\Transaksi.xaml.vb">
+      <DependentUpon>Transaksi.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Transaksi\RincianPembelian.xaml.vb">
+      <DependentUpon>RincianPembelian.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Transaksi\RincianTransaksi.xaml.vb">
+      <DependentUpon>RincianTransaksi.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Keamanan\Login.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Keamanan\Pengguna.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Keamanan\ViewPengguna.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="Application.xaml.vb">
+      <DependentUpon>Application.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Keamanan\Login.xaml.vb">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Keamanan\Pengguna.xaml.vb">
+      <DependentUpon>Pengguna.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Keamanan\ViewPengguna.xaml.vb">
+      <DependentUpon>ViewPengguna.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.vb">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Master Data\Barang.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Master Data\ViewPemakaianBarang2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Master Data\PemakaianBarang2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Master Data\ViewJenisLaundry.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Master Data\ViewTarif.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Master Data\Tarif.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Master Data\JenisLaundry.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Master Data\Supplier.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Master Data\Karyawan.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Master Data\ViewSupplier.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Master Data\ViewKaryawan.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Master Data\ViewKonsumen.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Master Data\Konsumen.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Master Data\ViewBarang.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="StartPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Transaksi\Kembalian.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Transaksi\Nota.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Transaksi\PemakaianBarang.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Transaksi\Pembelian.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Transaksi\Transaksi.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Transaksi\RincianPembelian.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Transaksi\RincianTransaksi.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="System.Threading.Tasks" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows" />
+    <Import Include="System.Windows.Controls" />
+    <Import Include="System.Windows.Data" />
+    <Import Include="System.Windows.Documents" />
+    <Import Include="System.Windows.Input" />
+    <Import Include="System.Windows.Shapes" />
+    <Import Include="System.Windows.Media" />
+    <Import Include="System.Windows.Media.Imaging" />
+    <Import Include="System.Windows.Navigation" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Master Data\Barang.xaml.vb">
+      <DependentUpon>Barang.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Master Data\ViewJenisLaundry.xaml.vb">
+      <DependentUpon>ViewJenisLaundry.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Master Data\ViewTarif.xaml.vb">
+      <DependentUpon>ViewTarif.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Master Data\Tarif.xaml.vb">
+      <DependentUpon>Tarif.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Master Data\JenisLaundry.xaml.vb">
+      <DependentUpon>JenisLaundry.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Master Data\Supplier.xaml.vb">
+      <DependentUpon>Supplier.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Master Data\Karyawan.xaml.vb">
+      <DependentUpon>Karyawan.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Master Data\ViewSupplier.xaml.vb">
+      <DependentUpon>ViewSupplier.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Master Data\ViewKaryawan.xaml.vb">
+      <DependentUpon>ViewKaryawan.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Master Data\ViewKonsumen.xaml.vb">
+      <DependentUpon>ViewKonsumen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Master Data\Konsumen.xaml.vb">
+      <DependentUpon>Konsumen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Master Data\ViewBarang.xaml.vb">
+      <DependentUpon>ViewBarang.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Module Dan Class\ClsKoneksi.vb" />
+    <Compile Include="Module Dan Class\ClsPelengkap.vb" />
+    <Compile Include="Module Dan Class\ModKoneksi.vb" />
+    <Compile Include="Module Dan Class\ModPelengkap.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWpfExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.WPF.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox2.resx">
+      <DependentUpon>AboutBox2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\LaporanBarang.resx">
+      <DependentUpon>LaporanBarang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\LaporanKaryawan.resx">
+      <DependentUpon>LaporanKaryawan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\laporanKonsumen.resx">
+      <DependentUpon>laporanKonsumen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\laporanpe.resx">
+      <DependentUpon>laporanpe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\LaporanSupplier.resx">
+      <DependentUpon>LaporanSupplier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\LaporanTransaksi.resx">
+      <DependentUpon>LaporanTransaksi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\LprBarang.rdlc" />
+    <EmbeddedResource Include="Laporan\Lprkaryawan.rdlc" />
+    <EmbeddedResource Include="Laporan\LprKonsumen.rdlc" />
+    <EmbeddedResource Include="Laporan\LprPembelian.rdlc" />
+    <EmbeddedResource Include="Laporan\LprSupplier.rdlc" />
+    <EmbeddedResource Include="Laporan\LprTransaksi.rdlc" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+    </EmbeddedResource>
+    <None Include="LuthfiAzzammiDataSet.xsc">
+      <DependentUpon>LuthfiAzzammiDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="LuthfiAzzammiDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LuthfiAzzammiDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LuthfiAzzammiDataSet.xss">
+      <DependentUpon>LuthfiAzzammiDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <AppDesigner Include="My Project\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\close.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\delete1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\delete2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\recycle_bin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\setting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\tambah.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\barang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\customer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\d_dispatch_order_256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\daftarbarang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\GoliveCS2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\karyawan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\pembelian.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\pembelianrinci.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\profil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\rincian.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Supplier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\transaksi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\transaksirinci.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\user_male_white_blue_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\spyglass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Vector-Background-and-Design-24-Cool-Wallpapers-HD.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\jenislaundry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\tarif.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\b_offer_a_256.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Resources\pemakaianbarang.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

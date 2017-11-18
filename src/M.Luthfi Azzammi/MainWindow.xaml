@@ -1,0 +1,106 @@
+﻿<Window x:Class="MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Aplikasi Manajemen Laundry" Height="350" Width="767.403" WindowStartupLocation="CenterScreen" Icon="Resources/b_offer_a_256.png" >
+    <Grid>
+        <Ribbon>
+            <Ribbon.ApplicationMenu>
+                <RibbonApplicationMenu>
+                    <RibbonApplicationMenuItem Name="AboutMenuBtn" Header="About" ImageSource="Resources/GoliveCS2.png"/>
+                    <RibbonApplicationMenuItem Name="ExitBtn" Header="Tutup" ImageSource="Resources/close.bmp"/>
+                </RibbonApplicationMenu>
+            </Ribbon.ApplicationMenu>
+            <RibbonTab Header="Master Data">                
+                <RibbonGroup Header="Barang">
+                    <Image Source="Resources/barang.png"/>
+                    <RibbonButton Name="TBarang" Label="Tambah Barang" SmallImageSource="Resources/tambah.png" />
+                    <RibbonButton Name="LBarang" Label="Lihat Barang" SmallImageSource="Resources/daftarbarang.png"/>
+                </RibbonGroup>
+                <RibbonGroup Header="Karyawan">
+                    <Image Source="Resources/karyawan.png"/>
+                    <RibbonButton Name="TKaryawan" Label="Tambah Karyawan" SmallImageSource="Resources/tambah.png" />
+                    <RibbonButton Name="LKaryawan" Label="Lihat Karyawan" SmallImageSource="Resources/spyglass.png"/>
+                </RibbonGroup>
+                <RibbonGroup Header="Konsumen">
+                    <Image Source="Resources/customer.png"/>
+                    <RibbonButton Name="TKonsumen" Label="Tambah Konsumen" SmallImageSource="Resources/tambah.png" />
+                    <RibbonButton Name="LKonsumen" Label="Lihat Konsumen" SmallImageSource="Resources/spyglass.png"/>
+                </RibbonGroup>
+                <RibbonGroup Header="Supplier" Margin="0,1" >
+                    <Image Source="Resources/Supplier.png"/>
+                    <RibbonButton Name="TSupplier" Label="Tambah Supplier" SmallImageSource="Resources/tambah.png" />
+                    <RibbonButton Name="LSupplier" Label="Lihat Supplier" SmallImageSource="Resources/spyglass.png"/>
+                </RibbonGroup>
+                <RibbonGroup>
+                    <RibbonButton Name="JenisLaundryBtn" Label="Jenis Laundry" LargeImageSource="Resources/jenislaundry.png"/>
+                    <RibbonButton Name="TarifBtn" Label="Tarif" LargeImageSource="Resources/tarif.png"/>
+                </RibbonGroup>
+            </RibbonTab>
+            <RibbonTab Header="Transaksi">
+                <RibbonGroup>
+                    <RibbonButton Name="TransaksiBtn" Label="Transaksi" LargeImageSource="Resources/transaksi.png"/>
+                    <RibbonButton Name="PembelianBtn" Label="Pembelian" LargeImageSource="Resources/pembelian.png"/>
+                    <RibbonSplitButton Label="Rincian" LargeImageSource="Resources/rincian.png">
+                        <RibbonButton Name="RTransaksiBtn" Label="Rincian Transaksi" SmallImageSource="Resources/transaksirinci.png"/>
+                        <RibbonButton Name="RPembelianBtn" Label="Rincian Pembelian" SmallImageSource="Resources/pembelianrinci.png" />
+                    </RibbonSplitButton>
+                    <RibbonButton Name="PemakaianBrgBtn" Label="Pemakaian Barang" LargeImageSource="Resources/pemakaianbarang.png" />
+                </RibbonGroup>
+            </RibbonTab>
+            <RibbonTab Header="Laporan">
+                <RibbonGroup>
+                    <RibbonButton Name="LaporanbarangBtn" Label="Laporan Barang" LargeImageSource="Resources/barang.png" />
+                    <RibbonButton Name="LaporankaryawanBtn" Label="Laporan Karyawan" LargeImageSource="Resources/karyawan.png" />
+                    <RibbonButton Name="LaporankonsumenBtn" Label="Laporan Konsumen" LargeImageSource="Resources/customer.png" />
+                    <RibbonButton Name="LaporanpembelianBtn" Label="Laporan Pembelian" LargeImageSource="Resources/pembelian.png" />
+                    <RibbonButton Name="LaporansupplierBtn" Label="Laporan Supplier" LargeImageSource="Resources/Supplier.png" />
+                    <RibbonButton Name="LaporantransaksiBtn" Label="Laporan Transaksi" LargeImageSource="Resources/transaksi.png" />
+                </RibbonGroup>
+            </RibbonTab>
+            <RibbonTab Header="Security And About">
+                <RibbonGroup Header="Pengguna">
+                    <Image Source="Resources/user_male_white_blue_black.png"/>
+                    <RibbonButton Name="TPenggunaBtn" Label="Tambah Pengguna" SmallImageSource="Resources/tambah.png"/>
+                    <RibbonButton Name="lPenggunaBtn" Label="Lihat Pengguna" SmallImageSource="Resources/spyglass.png" />
+                </RibbonGroup>
+                <RibbonGroup>
+                    <RibbonButton Name="ProfilBtn" Label="Profil Pembuat" LargeImageSource="Resources/profil.png"/>
+                    <RibbonButton Name="InfoBtn" Label="About Aplikasi" LargeImageSource="Resources/GoliveCS2.png"/>
+                </RibbonGroup>
+            </RibbonTab>         
+        </Ribbon>
+        <Frame Name="Frame1" Margin="0,143,0,37"/>
+        <Label Name="PenggunaLbl" Content="Aha" HorizontalAlignment="Right" Foreground="Maroon" FontFamily="verdana"/>
+        <Grid Background="#FFD0D1D7" VerticalAlignment="Bottom" Height="32" RenderTransformOrigin="0.5,0.5">
+            <Grid.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Grid.RenderTransform>
+            <Label Name="TIMELbl" Content="Label" HorizontalAlignment="Right" Margin="707,3,0,3" RenderTransformOrigin="0.5,0.5" FontFamily="verdana">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="-1"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+            <Label Content="Aplikasi Managemen Laundry Sederhana Dengan Database SQL Server CE - Luthfi" HorizontalAlignment="Left" Margin="3,1,0,0" VerticalAlignment="Top" Height="29" RenderTransformOrigin="0.5,0.5">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="-1"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+
+        </Grid>
+    </Grid>
+</Window>

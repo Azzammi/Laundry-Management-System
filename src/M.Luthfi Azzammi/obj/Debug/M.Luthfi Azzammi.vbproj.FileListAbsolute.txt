@@ -1,0 +1,79 @@
+c:\users\kkpi11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\bin\Debug\M.Luthfi Azzammi.exe.config
+c:\users\kkpi11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\bin\Debug\M.Luthfi Azzammi.exe
+c:\users\kkpi11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\bin\Debug\M.Luthfi Azzammi.pdb
+c:\users\kkpi11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\bin\Debug\M.Luthfi Azzammi.xml
+c:\users\kkpi11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\M.Luthfi Azzammi.vbprojResolveAssemblyReference.cache
+c:\users\kkpi11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\MainWindow.baml
+c:\users\kkpi11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Master Data\ViewBarang.baml
+c:\users\kkpi11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\MainWindow.g.vb
+c:\users\kkpi11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Master Data\ViewBarang.g.vb
+c:\users\kkpi11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Application.g.vb
+c:\users\kkpi11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\M.Luthfi Azzammi_MarkupCompile.cache
+c:\users\kkpi11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\M.Luthfi Azzammi.g.resources
+c:\users\kkpi11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\M.Luthfi_Azzammi.Resources.resources
+c:\users\kkpi11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\M.Luthfi Azzammi.vbproj.GenerateResource.Cache
+c:\users\kkpi11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\M.Luthfi Azzammi.exe
+c:\users\kkpi11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\M.Luthfi Azzammi.xml
+c:\users\kkpi11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\M.Luthfi Azzammi.pdb
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Keamanan\Login.baml
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Keamanan\Pengguna.baml
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Keamanan\Login.g.vb
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Keamanan\Pengguna.g.vb
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Keamanan\ViewPengguna.baml
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Keamanan\ViewPengguna.g.vb
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Master Data\Barang.baml
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Master Data\Barang.g.vb
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Master Data\JenisLaundry.baml
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Master Data\Supplier.baml
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Master Data\Karyawan.baml
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Master Data\ViewSupplier.baml
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Master Data\ViewKaryawan.baml
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Master Data\ViewKonsumen.baml
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Master Data\Konsumen.baml
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Master Data\JenisLaundry.g.vb
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Master Data\Supplier.g.vb
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Master Data\Karyawan.g.vb
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Master Data\ViewSupplier.g.vb
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Master Data\ViewKaryawan.g.vb
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Master Data\ViewKonsumen.g.vb
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Master Data\Konsumen.g.vb
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Master Data\Tarif.baml
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Master Data\Tarif.g.vb
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Master Data\ViewJenisLaundry.baml
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Master Data\ViewTarif.baml
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Master Data\ViewJenisLaundry.g.vb
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Master Data\ViewTarif.g.vb
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\StartPage.baml
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\StartPage.g.vb
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Transaksi\RincianTransaksi.baml
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Transaksi\RincianTransaksi.g.vb
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Transaksi\RincianPembelian.baml
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Transaksi\RincianPembelian.g.vb
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\M.Luthfi_Azzammi.AboutBox1.resources
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Transaksi\Transaksi.baml
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Transaksi\Transaksi.g.vb
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Transaksi\Pembelian.baml
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Transaksi\Pembelian.g.vb
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Transaksi\PemakaianBarang.baml
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Transaksi\PemakaianBarang.g.vb
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Transaksi\Nota.baml
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Transaksi\Nota.g.vb
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Transaksi\Kembalian.baml
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Transaksi\Kembalian.g.vb
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\M.Luthfi_Azzammi.Laporan.resources
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\RdlCompile.cache
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\RdlCompile.compiled
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\M.Luthfi_Azzammi.LaporanKaryawan.resources
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\M.Luthfi_Azzammi.laporanKonsumen.resources
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\M.Luthfi_Azzammi.laporanpe.resources
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\M.Luthfi_Azzammi.LaporanSupplier.resources
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\M.Luthfi_Azzammi.LaporanTransaksi.resources
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Master Data\ViewPemakaianBarang2.baml
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Master Data\PemakaianBarang2.baml
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Master Data\ViewPemakaianBarang2.g.vb
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\Master Data\PemakaianBarang2.g.vb
+C:\Users\KKPI11\documents\visual studio 2012\Projects\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\M.Luthfi_Azzammi.AboutBox2.resources
+C:\Users\Ciksel\Downloads\M.Luthfi Azzammi\M.Luthfi Azzammi\bin\Debug\M.Luthfi Azzammi.exe.config
+C:\Users\Ciksel\Downloads\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\M.Luthfi Azzammi.exe
+C:\Users\Ciksel\Downloads\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\M.Luthfi Azzammi.xml
+C:\Users\Ciksel\Downloads\M.Luthfi Azzammi\M.Luthfi Azzammi\obj\Debug\M.Luthfi Azzammi.pdb
